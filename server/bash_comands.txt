@@ -1,0 +1,32 @@
+npm init -y
+npm i typescript -D
+npx tsc --init
+npm i @types/node tsx -D
+npm run dev
+
+npm i fastify
+
+
+npm install --save-dev --save-exact @biomejs/biome
+
+ctrl+shift+p: preferences: Open Workspace Settings (JSON)
+{
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "biomejs.biome"
+}
+
+copiar arquivo biome.JSON
+
+instalar extensão do vscode
+
+reload
+
+
+npm i drizzle-orm
+
+npm i drizzle-kit
+
+
+postgress://docker:docker@localhost:5432/inorbit
+
+npm i zod
