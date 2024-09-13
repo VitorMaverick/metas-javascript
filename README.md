@@ -1,4 +1,3 @@
-
 # Comandos utilizados para criar e testar o projeto no ambiente de desenvolvimento
 
 npm init -y
