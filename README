@@ -1,5 +1,5 @@
 
-##Comandos utilizados para criar o projeto e executar o projeto no ambiente de desenvolvimento
+# Comandos utilizados para criar e testar o projeto no ambiente de desenvolvimento
 
 npm init -y
 npm i typescript -D
@@ -7,7 +7,7 @@ npx tsc --init
 npm i @types/node tsx -D
 npm run dev
 
-#Depedencias 
+# Depedencias 
 npm i fastify
 npm i drizzle-orm
 npm i drizzle-kit
@@ -24,7 +24,7 @@ copiar arquivo biome.JSON
 
 instalar extensão do vscode
 
-#Comandos para gerenciar o banco 
+# Operacoes no banco 
 npx drizzle-kit generate
 
 npx drizzle-kit migrate
