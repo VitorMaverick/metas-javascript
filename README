@@ -1,5 +1,5 @@
 
-#Comandos bash 
+##Comandos utilizados para criar o projeto e executar o projeto no ambiente de desenvolvimento
 
 npm init -y
 npm i typescript -D
@@ -7,9 +7,11 @@ npx tsc --init
 npm i @types/node tsx -D
 npm run dev
 
+#Depedencias 
 npm i fastify
-
-
+npm i drizzle-orm
+npm i drizzle-kit
+npm i zod
 npm install --save-dev --save-exact @biomejs/biome
 
 ctrl+shift+p: preferences: Open Workspace Settings (JSON)
@@ -22,18 +24,7 @@ copiar arquivo biome.JSON
 
 instalar extensão do vscode
 
-reload
-
-
-npm i drizzle-orm
-
-npm i drizzle-kit
-
-
-postgress://docker:docker@localhost:5432/inorbit
-
-npm i zod
-
+#Comandos para gerenciar o banco 
 npx drizzle-kit generate
 
 npx drizzle-kit migrate
